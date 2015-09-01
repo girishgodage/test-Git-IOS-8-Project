@@ -14,6 +14,7 @@
 		80E5A6151B95824A00EA7137 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E5A6141B95824A00EA7137 /* Images.xcassets */; };
 		80E5A6181B95824A00EA7137 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E5A6161B95824A00EA7137 /* LaunchScreen.xib */; };
 		80E5A6241B95824A00EA7137 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E5A6231B95824A00EA7137 /* GitTestTests.m */; };
+		80E5A62F1B95896A00EA7137 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E5A62E1B95896A00EA7137 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		80E5A61D1B95824A00EA7137 /* GitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E5A6221B95824A00EA7137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80E5A6231B95824A00EA7137 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		80E5A62D1B95896A00EA7137 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		80E5A62E1B95896A00EA7137 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				80E5A6141B95824A00EA7137 /* Images.xcassets */,
 				80E5A6161B95824A00EA7137 /* LaunchScreen.xib */,
 				80E5A6071B95824A00EA7137 /* Supporting Files */,
+				80E5A62D1B95896A00EA7137 /* Test.h */,
+				80E5A62E1B95896A00EA7137 /* Test.m */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80E5A6101B95824A00EA7137 /* ViewController.m in Sources */,
+				80E5A62F1B95896A00EA7137 /* Test.m in Sources */,
 				80E5A60D1B95824A00EA7137 /* AppDelegate.m in Sources */,
 				80E5A60A1B95824A00EA7137 /* main.m in Sources */,
 			);
